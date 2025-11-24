@@ -24,7 +24,13 @@ sys=tf(num,den)
 step(sys)
 ```
 ### Closed loop System
-num=[300] den=[1 10 320] sys=tf(num,den) t=0:0.01:0.2; step(sys,t)
+```
+num=[300]
+den=[1 10 320] 
+sys=tf(num,den)
+t=0:0.01:0.2; 
+step(sys,t)
+```
 ## Procedure:
 	Open MATLAB software
 	Open a new script file.
